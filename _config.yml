@@ -23,12 +23,11 @@ author:
   # Biographic information
   avatar           : "cejk.png"
   name             : "Christina E. Kong"
-  pronouns         : # example: "she/her"  
+  pronouns         : "she/her"  
   bio              : "PhD student "
   location         : "Vancouver, Canada"
   employer         : "University of British Columbia"
-  uri              : # URL
-  email            : "ckong@eoas.ubc.ca" 
+  email            : "ckong@eoas.ubc.ca"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -36,7 +35,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-5363-6948"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  #researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -197,10 +196,10 @@ kramdown:
 
 
 # Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
+#collections:
+ # :
+  #  output: true
+   # permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -232,15 +231,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  # _
+  #- scope:
+   #   path: ""
+    #  type: 
+    #values:
+     # layout: single
+     # author_profile: true
+     # share: true
+     # comments: true
   # _publications
   - scope:
       path: ""
